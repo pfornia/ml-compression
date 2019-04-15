@@ -1,0 +1,23 @@
+Lit review
+    Is "connect the dots" step actually novel?
+
+2) Compression metrics
+
+3) Study CAE architecture
+
+Quantize encoded output
+
+Validation set metrics in tf
+
+figure out how to re-randomize top layers in alternation; may help avoid local optima
+    Or. Maybe 
+        1) freeze bottom layers 
+        2) randomize top 
+        3) optimize top 
+        4) unfreeze and retrain entire network.
+
+Get other datasets
+    Street view addresses
+    Faces
+    CIFAR-10?? This is color, but dimension looks good
+
