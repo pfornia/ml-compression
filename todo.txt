@@ -2,6 +2,10 @@ Lit review
     Is "connect the dots" step actually novel?
 
 2) Compression metrics
+    See pg 7 of theis:
+    Mean Squared Error
+    PSNR (peak signal to noise ratio, see wikipedia), 
+    SSIM, MS-SSIM
 
 3) Study CAE architecture
 
@@ -21,3 +25,13 @@ Get other datasets
     Faces
     CIFAR-10?? This is color, but dimension looks good
 
+Batch Normalization, not CNN dropout
+    https://towardsdatascience.com/dont-use-dropout-in-convolutional-networks-81486c823c16
+    https://towardsdatascience.com/intuit-and-implement-batch-normalization-c05480333c5b
+
+Make AE better! Still seems to underperform tf version.
+
+Double check that compress layers are actually getting frozen by .detach().
+    Need to capture consistent set of images 
+
+Normalize/Denormalize
