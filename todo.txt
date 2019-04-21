@@ -24,10 +24,17 @@ Get other datasets
     Street view addresses
     Faces
     CIFAR-10?? This is color, but dimension looks good
+    For now:
+        MNIST
+        KMNIST
+        fashion MNIST
+
 
 Batch Normalization, not CNN dropout
     https://towardsdatascience.com/dont-use-dropout-in-convolutional-networks-81486c823c16
     https://towardsdatascience.com/intuit-and-implement-batch-normalization-c05480333c5b
+
+Dropout should not be affecting inference, i.e., inference should be deterministic!
 
 Make AE better! Still seems to underperform tf version.
 
