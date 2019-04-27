@@ -1,6 +1,8 @@
 Lit review
     Is "connect the dots" step actually novel?
 
+Start writing!
+
 2) Compression metrics
     See pg 7 of theis:
     Mean Squared Error
@@ -9,7 +11,8 @@ Lit review
 
 3) Study CAE architecture
 
-Quantize encoded output
+Add layer to get down to 16*3*3
+
 
 Validation set metrics in tf
 
@@ -37,8 +40,5 @@ Batch Normalization, not CNN dropout
 Dropout should not be affecting inference, i.e., inference should be deterministic!
 
 Make AE better! Still seems to underperform tf version.
-
-Double check that compress layers are actually getting frozen by .detach().
-    Need to capture consistent set of images 
 
 Normalize/Denormalize
