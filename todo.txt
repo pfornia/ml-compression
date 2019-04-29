@@ -3,6 +3,9 @@ Lit review
 
 Start writing!
 
+Find sources:
+    PSNR
+
 2) Compression metrics
     See pg 7 of theis:
     Mean Squared Error
