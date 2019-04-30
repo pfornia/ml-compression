@@ -1,10 +1,22 @@
 Lit review
     Is "connect the dots" step actually novel?
 
-Start writing!
+
 
 Find sources:
     PSNR
+    other %\cite
+    datasets
+
+Results on Extension to new domain
+    Start with Fashion --> others, do the rest later as time allows.
+
+Run Time
+
+
+
+
+
 
 2) Compression metrics
     See pg 7 of theis:
