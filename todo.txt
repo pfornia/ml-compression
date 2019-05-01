@@ -1,18 +1,12 @@
-Lit review
-    Is "connect the dots" step actually novel?
+Due by:
 
+--Break IF ON SCHEDULE--
 
+Spell Check
 
-Find sources:
-    PSNR
-    other %\cite
-    datasets
+10:00 Break
 
-Results on Extension to new domain
-    Start with Fashion --> others, do the rest later as time allows.
-
-Run Time
-
+Midnight: Proofread and submit
 
 
 
