@@ -7,9 +7,12 @@ As part of a final project for my advanced machine learning course at Johns Hopk
 I explore creating a machine learnable image compression technique by sharing initial layers of deep neural network. In other words, I attempt to create a 
 compressed image file on which one can perform classification ML without first decompressing the image. 
 
-For more details on the techniques and background, please see the accompanying paper at `paper/alternating_transfer_learning_FORNIA.pdf`.
+For more details on the techniques and background, please see the accompanying paper at 
+[`paper/alternating_transfer_learning_FORNIA.pdf`](https://github.com/pfornia/ml-compression/tree/master/paper/alternating_transfer_learning_FORNIA.pdf).
 
-All corresponding code is contained in the notebook `code/alternating_transfers_pytorch.ipynb`, and uses the Pytorch framework. 
+All corresponding code is contained in the notebook 
+[`code/alternating_transfers_pytorch.ipynb`](https://github.com/pfornia/ml-compression/tree/master/code/alternating_transfers_pytorch.ipynb),
+and uses the Pytorch framework. 
 
 Very briefly, the concept of this approach is to create a hybrid network of a CNN classifier (to classify images), and and Autoencoder (to compress images).
 The initial layers feed both these tasks. Then two sets of layers perform the last steps in each task. The network is trained by using transfer learning back and forth
