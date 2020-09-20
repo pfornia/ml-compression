@@ -1,14 +1,4 @@
-Due by:
-
---Break IF ON SCHEDULE--
-
-10:00 Break
-
-Midnight: Proofread and submit
-
-
-
-
+***TODO: update this.***
 
 2) Compression metrics
     See pg 7 of theis:
